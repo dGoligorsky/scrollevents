@@ -83,3 +83,12 @@ section.s4 div.circle {
     background-color: #5982a0;
 }
 
+div.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 10px;
+    background-color: #333333;
+    z-index: 1;
+}
