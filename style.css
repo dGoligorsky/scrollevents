@@ -15,6 +15,11 @@ header {
     top: 36px;
     left: 36px;
     z-index: 1;
+    transition: color 0.25s;
+}
+
+header.white {
+    color: #ffffff;
 }
 
 section {
@@ -88,7 +93,12 @@ div.progress {
     top: 0;
     left: 0;
     width: 0;
-    height: 10px;
+    height: 2px;
     background-color: #333333;
     z-index: 1;
+    transition: background-color 0.25s;
+}
+
+div.progress.white {
+    background-color: #ffffff;
 }
